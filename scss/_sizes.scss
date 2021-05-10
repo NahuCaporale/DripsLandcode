@@ -1,0 +1,13 @@
+
+/*Bucle para sizes parrafos y H's*/
+@for $p from 1 through 4{
+    .psize-#{$p}{
+        font-size: 12px * $p;
+    }
+}
+/*Each para generar fuentes*/
+@each $fuentes in sans-serif, arial{
+    .font#{$fuentes}{
+    font-family: $fuentes;
+}
+}
