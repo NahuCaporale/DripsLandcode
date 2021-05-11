@@ -1,40 +1,6 @@
 @import "colors";
 @import "sizes";
 
-// Open Loader
-#loader {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100vh;
-    width: 100%;
-    z-index: 2;
-    width: 100%;
-    
-    .tick {
-    background: linear-gradient(to left, #999999, #ffffff, #999999);
-    width: 15vw;
-    height: 4px;
-    position: absolute;
-    left: -15vw;
-    top: 0px;
-    animation: load 1.5s ease-in-out;
-    z-index: 3;
-}
-}
-
-@keyframes load {
-    0% {
-    left: -15vw;
-    top: 0px;
-}
-    to {
-    left: 100vw;
-}
-}
-// Loader CSS end
-
-
 /*Esconder scroll x*/
 body {
 overflow-x: hidden;
