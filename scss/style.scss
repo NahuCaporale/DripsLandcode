@@ -66,12 +66,34 @@ padding: 0;
 padding: 0px 15px 0 15px;
 }
 
+//Boxes en index
+#div-banners{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  grid-gap: 15px;
+  margin-top: 4%;
+}
+#div-banners .box-banner img [width="654"]{
+width: auto !important;
+}
+
+#div-banners .box-banner img [height="305"]{
+height: auto !important;
+}
+.div-img--banners{
+  width: 562px;
+  height: 262px;
+}
+
+
+/*Slider marcas en home*/
 .section-p--brands {
   font-size: 24px;
   text-align: center;
   padding-top: 4.5rem;
   }
-/*Slider marcas en home*/
+
 .section-brands--padding {
 padding: 2rem 1.2rem;
 }
@@ -335,7 +357,18 @@ color: black;
     padding-right: 8px;
   }
   .imgSize {
-    height: 200px;
+    width: 360px;
+    height: 225px;
+  }
+  //Boxes index
+  #div-banners{
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .div-img--banners{
+    max-width: 100%;
+    width: 330px;
+    height: 154px;
   }
 
   /*Seccion Pruductos*/
@@ -408,6 +441,7 @@ color: black;
     width: 95%;
     margin-left: 0.5rem;
   }
+  
 }
 
 /*Media for iphone/phone*/
@@ -418,12 +452,23 @@ color: black;
     padding-left: 15px;
     padding-right: 15px;
   }
-  .carousel-padding {
-    padding: 5px 20px 5px 20px;
-  }
+
   .imgSize {
-    height: 250px;
+    width: 375px;
+    height: 234px;
   }
+  //Boxes index
+  #div-banners{
+    grid-template-columns: 1fr;
+    text-align: center;
+    margin-top: 15%;
+  }
+  .div-img--banners{
+    max-width: 100%;
+    width: 345px;
+    height: 161px;
+  }
+
   /*Seccion productos*/
   .cardSpace {
     display: block;
@@ -485,6 +530,25 @@ color: black;
 
 /*Media for ipad/tablet*/
 @media screen and (min-width: 768px) and (max-width: 986px) {
+/*Carousel estilo*/
+.section--carousel-padding {
+  padding: 0px 5px 0 5px;
+  }
+
+  .imgSize {
+    width: 768px;
+    height: 368px;
+  }
+  //Boxes index
+  #div-banners{
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .div-img--banners{
+    max-width: 100%;
+    width: 610px;
+    height: 285px;
+  }
   /*Seccion Productos*/
   .cardSpace {
     margin-left: 2rem;
@@ -573,6 +637,13 @@ color: black;
 }
 
 @media screen and (min-width: 987px) and (max-width: 1200px) {
+  //Boxes index
+  .div-img--banners{
+    max-width: 100%;
+    width: 462px;
+    height: 216px;
+  }
+
   /*Seccion Productos*/
   .cardSpace {
     margin-left: 8rem;
