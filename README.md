@@ -1,2 +1,2 @@
 # DripsLandcode
-Visita el sitio: https://nahucaporale.github.io/DripsLandcode/
+Link al sitio: https://nahucaporale.github.io/DripsLandcode/
