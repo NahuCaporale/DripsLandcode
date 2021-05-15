@@ -88,6 +88,7 @@ height: auto !important;
 
 
 /*Slider marcas en home*/
+
 .section-p--brands {
   font-size: 28px;
   text-align: center;
@@ -151,7 +152,6 @@ color: black;
   color: black;
 }
 
-/*Card Productos*/
 .card-title {
   font-size: 24px;
 }
@@ -166,7 +166,7 @@ color: black;
   border-color: $principal-color;
   border: solid 2px;
 }
-.btn-primary:hover {
+.btn-primary:hover{
   background-color: $principal-color;
   border-color: #d450cb;
 }
@@ -194,12 +194,12 @@ color: black;
   @extend .cardSpace;
 }
 
-/*Marcas en marcas*/
+/*Seccion Marcas*/
 .brands-h1 {
   margin-bottom: 40px;
 }
-.body-marcas-space {
-  margin-top: 22vh;
+.body-marcas--space {
+  margin-top: 18vh;
 }
 .our-clients {
   width: 100%;
@@ -221,7 +221,7 @@ color: black;
   overflow: hidden;
   cursor: pointer;
   margin: 10px;
-  box-shadow: 0px 0px 15px -7px $sombra;
+  box-shadow: 0px 0px 10px -7px $sombra;
   transition: 0.5s;
 }
 
@@ -392,7 +392,7 @@ color: black;
     margin-bottom: 40px;
     font-size: 18px;
   }
-  .body-marcas-space {
+  .body-marcas--space{
     margin-top: 8vh;
   }
 
@@ -412,7 +412,7 @@ color: black;
     margin-bottom: 20px;
   }
   .div-iframe--aboutus {
-    width: 330px;
+    width: 100%;
   }
 
   /*Contact section*/
@@ -489,7 +489,7 @@ color: black;
     margin-bottom: 40px;
     font-size: 24px;
   }
-  .body-marcas-space {
+  .body-marcas--space {
     margin-top: 10vh;
   }
   /*Seccion Nosotros*/
@@ -560,7 +560,7 @@ color: black;
   }
 
   /*Seccion Marcas*/
-  .body-marcas-space {
+  .body-marcas--space {
     margin-top: 10vh;
   }
 
@@ -655,7 +655,7 @@ color: black;
   }
 
   /*Seccion Marcas*/
-  .body-marcas-space {
+  .body-marcas--space {
     margin-top: 10vh;
   }
 }

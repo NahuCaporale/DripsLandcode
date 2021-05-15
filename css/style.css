@@ -149,7 +149,6 @@ body {
 .copyStyle:hover {
   color: black; }
 
-/*Card Productos*/
 .card-title {
   font-size: 24px; }
 
@@ -184,12 +183,12 @@ body {
   margin-top: 4rem;
   margin-left: 10rem; }
 
-/*Marcas en marcas*/
+/*Seccion Marcas*/
 .brands-h1 {
   margin-bottom: 40px; }
 
-.body-marcas-space {
-  margin-top: 22vh; }
+.body-marcas--space {
+  margin-top: 18vh; }
 
 .our-clients {
   width: 100%;
@@ -209,7 +208,7 @@ body {
   overflow: hidden;
   cursor: pointer;
   margin: 10px;
-  box-shadow: 0px 0px 15px -7px #555;
+  box-shadow: 0px 0px 10px -7px #555;
   transition: 0.5s; }
 
 .our-clients ul li img {
@@ -344,7 +343,7 @@ body {
   .brands-h1 {
     margin-bottom: 40px;
     font-size: 18px; }
-  .body-marcas-space {
+  .body-marcas--space {
     margin-top: 8vh; }
   /*Seccion Nosotros*/
   .div-nosotros--h1 {
@@ -360,7 +359,7 @@ body {
     margin-top: 0px;
     margin-bottom: 20px; }
   .div-iframe--aboutus {
-    width: 330px; }
+    width: 100%; }
   /*Contact section*/
   .div-card--contact {
     margin-left: 0rem; }
@@ -415,7 +414,7 @@ body {
   .brands-h1 {
     margin-bottom: 40px;
     font-size: 24px; }
-  .body-marcas-space {
+  .body-marcas--space {
     margin-top: 10vh; }
   /*Seccion Nosotros*/
   .div-abstract--aboutus, .div-abstract--aboutus2 {
@@ -469,7 +468,7 @@ body {
     margin-top: 2rem;
     margin-left: 2rem; }
   /*Seccion Marcas*/
-  .body-marcas-space {
+  .body-marcas--space {
     margin-top: 10vh; }
   /*Estilo footer*/
   footer {
@@ -535,5 +534,5 @@ body {
     margin-left: 8rem;
     margin-top: 2rem; }
   /*Seccion Marcas*/
-  .body-marcas-space {
+  .body-marcas--space {
     margin-top: 10vh; } }
