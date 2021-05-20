@@ -23,6 +23,10 @@
 body {
   overflow-x: hidden; }
 
+.nopadding {
+  padding: 0;
+  margin: 0; }
+
 /*Estilo nav*/
 .nav-space {
   margin-right: rem; }
@@ -247,7 +251,7 @@ body {
   /* The image used */
   background-image: url("../assets/images/parallaxp1.jpg");
   /* Set a specific height */
-  height: 848.5px;
+  height: 850.5px;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
@@ -255,7 +259,7 @@ body {
   background-size: cover;
   /* box modeling */
   margin-bottom: 50px;
-  margin-top: 1px; }
+  margin-top: 0px; }
 
 .div-abstract--aboutus, .div-abstract--aboutus2 {
   text-align: center;
@@ -471,22 +475,21 @@ body {
   .body-marcas--space {
     margin-top: 10vh; }
   /*Estilo footer*/
-  footer {
-    /*Alineado y color de redes sociales footer*/
-    /*Estilo copyright footer*/ }
-    footer .page-footer {
-      margin-bottom: rem; }
-    footer .footer-color {
-      background-color: #96338A; }
-    footer .footer-center {
-      text-align: center;
-      padding-top: 20px; }
-    footer .footer-color--rs {
-      color: white; }
-    footer .copyStyle {
-      color: black; }
-    footer .copyStyle:hover {
-      color: black; }
+  .page-footer {
+    margin-bottom: 9rem; }
+  .footer-color {
+    background-color: #96338A; }
+  /*Alineado y color de redes sociales footer*/
+  .footer-center {
+    text-align: center;
+    padding-top: 20px; }
+  .footer-color--rs {
+    color: white; }
+  /*Estilo copyright footer*/
+  .copyStyle {
+    color: black; }
+  .copyStyle:hover {
+    color: black; }
   /*Seccion Nosotros*/
   .div-abstract--aboutus, .div-abstract--aboutus2 {
     text-align: center;
@@ -535,4 +538,7 @@ body {
     margin-top: 2rem; }
   /*Seccion Marcas*/
   .body-marcas--space {
-    margin-top: 10vh; } }
+    margin-top: 10vh; }
+  /*Estilo footer*/
+  .page-footer {
+    margin-bottom: 30.4rem; } }

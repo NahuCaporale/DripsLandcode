@@ -3,7 +3,11 @@
 
 /*Esconder scroll x*/
 body {
-overflow-x: hidden;
+  overflow-x: hidden;
+}
+.nopadding {
+  padding: 0 ;
+  margin: 0 ;
 }
 
 /*Estilo nav*/
@@ -267,7 +271,7 @@ color: black;
 
   /* Set a specific height */
 
-  height: 848.5px;
+  height: 850.5px;
 
   /* Create the parallax scrolling effect */
 
@@ -282,7 +286,7 @@ color: black;
   /* box modeling */
 
   margin-bottom: 50px;
-  margin-top: 1px;
+  margin-top: 0px;
 }
 
 .div-abstract--aboutus {
@@ -565,9 +569,8 @@ color: black;
   }
 
   /*Estilo footer*/
-  footer {
     .page-footer {
-      margin-bottom: rem;
+      margin-bottom: 9rem;
     }
     .footer-color {
       background-color: $principal-color;
@@ -589,7 +592,7 @@ color: black;
     .copyStyle:hover {
       color: black;
     }
-  }
+
 
   /*Seccion Nosotros*/
   .div-abstract--aboutus {
@@ -657,5 +660,9 @@ color: black;
   /*Seccion Marcas*/
   .body-marcas--space {
     margin-top: 10vh;
+  }
+  /*Estilo footer*/
+  .page-footer {
+    margin-bottom: 30.4rem;
   }
 }
