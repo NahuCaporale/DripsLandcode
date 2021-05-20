@@ -23,10 +23,6 @@
 body {
   overflow-x: hidden; }
 
-.nopadding {
-  padding: 0;
-  margin: 0; }
-
 /*Estilo nav*/
 .nav-space {
   margin-right: rem; }
@@ -125,33 +121,58 @@ body {
 .owl-dot.active {
   background-color: #000 !important; }
 
-/*Estilo footer*/
-.page-footer {
-  margin-top: 3rem; }
+.footer-basic {
+  margin-top: 50px;
+  padding: 40px 0;
+  background-color: #96338A;
+  color: white; }
 
-.footer-color {
-  background-color: #96338A; }
+.footer-basic--marcas {
+  margin-top: 9rem; }
 
-.footer-marcas-space {
-  margin-top: 12rem; }
-
-/*Alineado y color de redes sociales footer*/
-.footer-center {
+.footer-basic ul {
+  padding: 0;
+  list-style: none;
   text-align: center;
-  padding-top: 20px; }
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0; }
 
-.footer-color--rs {
-  color: white; }
+.footer-basic li {
+  padding: 0 10px; }
 
-.footer-color--rs:hover {
-  color: white; }
+.footer-basic ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8; }
 
-/*Estilo copyright footer*/
-.copyStyle {
-  color: black; }
+.footer-basic ul a:hover {
+  opacity: 1; }
 
-.copyStyle:hover {
-  color: black; }
+.footer-basic .social {
+  text-align: center;
+  padding-bottom: 25px; }
+
+.footer-basic .social > a {
+  font-size: 32px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  margin: 0 8px;
+  color: inherit;
+  opacity: 0.75; }
+
+.footer-basic .social > a:hover {
+  opacity: 0.9; }
+
+.footer-basic .copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: white;
+  margin-bottom: 0; }
 
 .card-title {
   font-size: 24px; }
@@ -173,7 +194,7 @@ body {
 .btn {
   border-radius: 1rem; }
 
-/*Espaciodo entre las cards y la nav*/
+/*Espaciado entre las cards y la nav*/
 .h1Buzos {
   text-align: center;
   padding-top: 4.5rem;
@@ -475,21 +496,8 @@ body {
   .body-marcas--space {
     margin-top: 10vh; }
   /*Estilo footer*/
-  .page-footer {
-    margin-bottom: 9rem; }
-  .footer-color {
-    background-color: #96338A; }
-  /*Alineado y color de redes sociales footer*/
-  .footer-center {
-    text-align: center;
-    padding-top: 20px; }
-  .footer-color--rs {
-    color: white; }
-  /*Estilo copyright footer*/
-  .copyStyle {
-    color: black; }
-  .copyStyle:hover {
-    color: black; }
+  .footer-basic {
+    margin-bottom: 8rem; }
   /*Seccion Nosotros*/
   .div-abstract--aboutus, .div-abstract--aboutus2 {
     text-align: center;
@@ -540,5 +548,5 @@ body {
   .body-marcas--space {
     margin-top: 10vh; }
   /*Estilo footer*/
-  .page-footer {
-    margin-bottom: 30.4rem; } }
+  .footer-basic {
+    margin-bottom: 30rem; } }
