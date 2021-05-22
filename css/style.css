@@ -217,6 +217,9 @@ body {
   margin-left: 10rem; }
 
 /*Seccion Marcas*/
+.footer-marcas {
+  margin-top: 9rem; }
+
 .brands-h1 {
   margin-bottom: 40px; }
 
@@ -379,6 +382,8 @@ body {
     font-size: 18px; }
   .body-marcas--space {
     margin-top: 8vh; }
+  .footer-marcas {
+    margin-top: 3rem; }
   /*Seccion Nosotros*/
   .div-nosotros--h1 {
     color: white;
@@ -445,6 +450,8 @@ body {
   .h1Buzos {
     font-size: 32px; }
   /*Seccion marcas*/
+  .footer-marcas {
+    margin-top: 3rem; }
   .brands-h1 {
     margin-bottom: 40px;
     font-size: 24px; }
@@ -502,6 +509,8 @@ body {
     margin-top: 2rem;
     margin-left: 2rem; }
   /*Seccion Marcas*/
+  .footer-marcas {
+    margin-top: 5rem; }
   .body-marcas--space {
     margin-top: 10vh; }
   /*Estilo footer*/
