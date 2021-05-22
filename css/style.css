@@ -121,6 +121,14 @@ body {
 .owl-dot.active {
   background-color: #000 !important; }
 
+.footer-logo {
+  margin-bottom: 12px; }
+
+.footer-logo--abstract {
+  font-size: 22px;
+  font-family: sans-serif;
+  margin-bottom: 10px; }
+
 .footer-basic {
   margin-top: 50px;
   padding: 40px 0;
@@ -151,7 +159,7 @@ body {
 
 .footer-basic .social {
   text-align: center;
-  padding-bottom: 25px; }
+  padding-bottom: 5px; }
 
 .footer-basic .social > a {
   font-size: 32px;
@@ -168,7 +176,7 @@ body {
   opacity: 0.9; }
 
 .footer-basic .copyright {
-  margin-top: 15px;
+  margin-top: 10px;
   text-align: center;
   font-size: 13px;
   color: white;
@@ -314,7 +322,8 @@ body {
 
 /*Color iconos*/
 .div-icons--color {
-  color: #96338A; }
+  color: #96338A;
+  font-size: 22px; }
 
 .div-icons--color:hover {
   color: #d450cb; }

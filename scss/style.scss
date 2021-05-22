@@ -122,6 +122,14 @@ background-color: #000 !important;
 }
 
 //Footer
+.footer-logo{
+  margin-bottom: 12px;
+}
+.footer-logo--abstract{
+  font-size: 22px;
+  font-family: sans-serif;
+  margin-bottom: 10px;
+}
 .footer-basic {
   margin-top: 50px;
   padding:40px 0;
@@ -157,7 +165,7 @@ background-color: #000 !important;
 
 .footer-basic .social {
   text-align:center;
-  padding-bottom:25px;
+  padding-bottom:5px;
 }
 
 .footer-basic .social > a {
@@ -177,12 +185,13 @@ background-color: #000 !important;
 }
 
 .footer-basic .copyright {
-  margin-top:15px;
+  margin-top:10px;
   text-align:center;
   font-size:13px;
   color:$white;
   margin-bottom:0;
 }
+
 
 
 //Productos
@@ -358,6 +367,7 @@ background-color: #000 !important;
 /*Color iconos*/
 .div-icons--color {
   color: $principal-color;
+  font-size: 22px;
 }
 .div-icons--color:hover {
   color: #d450cb;
